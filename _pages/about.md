@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. student in Electrical Engineering · University of Vermont
 
@@ -28,7 +28,7 @@ latest_posts:
 I am a Ph.D. student in Electrical Engineering at the [University of Vermont](https://www.uvm.edu/cems/ebe), advised by [Mads R. Almassalkhi](https://madsalma.github.io/) and [Samuel Chevalier](https://samchevalier.github.io/).
 I expect to complete my Ph.D. in Fall 2027 and am looking for postdoctoral positions.
 
-[Email](mailto:omid.mokhtari@uvm.edu) · [CV]({{ '/cv/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=Y0yF4dMAAAAJ) · [ORCID](https://orcid.org/0009-0001-6204-1612) · [GitHub](https://github.com/OmidMkht) · [LinkedIn](https://www.linkedin.com/in/omidmokhtari)
+[Email](mailto:omid.mokhtari@uvm.edu) · [CV]({{ '/cv/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=Y0yF4dMAAAAJ) · [GitHub](https://github.com/OmidMkht) · [LinkedIn](https://www.linkedin.com/in/omidmokhtari)
 
 ## Research
 
