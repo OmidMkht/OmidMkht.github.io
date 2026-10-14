@@ -32,17 +32,26 @@ I expect to complete my Ph.D. in Fall 2027 and am looking for postdoctoral posit
 
 ## Research
 
-My Ph.D. research focuses on optimal network reduction for power systems, in three parts.
+My Ph.D. research focuses on optimal network reduction for power systems, building on **mathematical optimization** and **graph theory**. It has three parts.
 
 **Network reduction for distribution systems.**
-I develop [Opti-KRON](https://github.com/OmidMkht/Opti-KRON), an optimization-based Kron reduction framework for distribution feeders.
+I develop [Opti-KRON](https://github.com/OmidMkht/Opti-KRON), which formulates Kron-based reduction of distribution feeders as a mixed-integer optimization problem.
 It produces structure-preserving (radial) reduced models of radial networks, extends to unbalanced three-phase feeders, and runs on GPUs for large systems.
 
+<div class="row justify-content-center mt-3">
+  <div class="col-sm-8">
+    {% include video.liquid path="assets/video/opti-kron-radial.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+  </div>
+</div>
+<div class="caption">
+  Opti-KRON on a radial feeder: the full network, its optimal Kron-based reduction, and radialization of the reduced model.
+</div>
+
 **Network reduction for transmission systems.**
-For large meshed transmission networks, I decompose the network into communities with community detection and reduce each community in parallel.
+For large meshed transmission networks, I partition the network graph into communities with community detection and reduce each community in parallel.
 
 **Sensor placement.**
-I use optimal network reduction to place a limited budget of sensors in radial distribution networks, supporting data-driven power flow and voltage estimation with sparse real-time measurements.
+I use optimal network reduction to place a limited budget of sensors in radial (tree-structured) distribution networks, supporting data-driven power flow and voltage estimation with sparse real-time measurements.
 
 During my M.Sc. at Sharif University of Technology, I worked on the co-planning of merchant energy storage systems and transmission systems.
 
