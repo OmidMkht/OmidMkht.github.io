@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp /root/.claude/uploads/90d79640-23c5-5c53-8031-2efbeec39b0f/e0a4324e-Omid_CV.pdf assets/pdf/Omid_Mokhtari_CV.pdf)",
+      "Bash(chmod 644 assets/pdf/Omid_Mokhtari_CV.pdf)",
+      "Bash(git add *)",
+      "Bash(git fetch *)",
+      "Bash(GIT_AUTHOR_NAME=\"Omid Mokhtari\" GIT_AUTHOR_EMAIL=\"147453476+OmidMkht@users.noreply.github.com\" GIT_COMMITTER_NAME=\"Omid Mokhtari\" GIT_COMMITTER_EMAIL=\"147453476+OmidMkht@users.noreply.github.com\" git commit -q -m \"Update CV\")"
+    ]
+  }
+}
