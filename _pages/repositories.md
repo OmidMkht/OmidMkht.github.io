@@ -1,14 +1,9 @@
 ---
 layout: page
-permalink: /repositories/
 title: code
-description: Open-source research code.
+# An external permalink makes the "code" menu item open the GitHub profile directly.
+permalink: https://github.com/OmidMkht
 nav: true
 nav_order: 4
+sitemap: false
 ---
-
-## Opti-KRON
-
-Optimal Kron-based reduction of distribution networks, including radial and unbalanced three-phase feeders.
-
-[Browse Opti-KRON](https://github.com/OmidMkht/Opti-KRON) · [All repositories](https://github.com/OmidMkht)
