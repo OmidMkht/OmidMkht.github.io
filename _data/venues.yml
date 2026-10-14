@@ -1,9 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"TPWRS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=59
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"EPSR":
+  url: https://www.sciencedirect.com/journal/electric-power-systems-research
