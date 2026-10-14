@@ -16,6 +16,7 @@ permissions:
 jobs:
   rendercv:
     name: RenderCV
+    if: ${{ hashFiles('_data/cv.yml', '_data/cv.yaml') != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
