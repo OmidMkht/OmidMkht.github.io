@@ -1,0 +1,153 @@
+# CV data in RenderCV format (https://docs.rendercv.com).
+# On every push that changes this file, GitHub Actions renders it to
+# assets/rendercv/rendercv_output/Omid_Mokhtari_CV.pdf, which the cv page shows.
+
+# RenderCV only picks up the design and locale files when this file names them.
+settings:
+  render_command:
+    design: ../assets/rendercv/design.yaml
+    locale: ../assets/rendercv/locale.yaml
+
+cv:
+  name: Omid Mokhtari
+  headline: Ph.D. Student in Electrical Engineering, Power Systems
+  location: Burlington, VT, USA
+  email: omid.mokhtari@uvm.edu
+  website: https://omidmkht.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: omidmokhtari
+    - network: Google Scholar
+      username: Y0yF4dMAAAAJ
+    - network: GitHub
+      username: OmidMkht
+
+  sections:
+    Research Interests:
+      - "Optimal network reduction for transmission and distribution networks; scalable optimization (decomposition, parallel and GPU computing);
+        voltage estimation and sensor placement with sparse measurements; power system planning and operation."
+
+    Education:
+      - institution: University of Vermont
+        area: Electrical Engineering
+        degree: Ph.D.
+        location: Burlington, VT, USA
+        start_date: 2023-08
+        end_date: present
+        highlights:
+          - "Expected completion: Fall 2027"
+          - "Advisors: Dr. Samuel Chevalier and Dr. Mads R. Almassalkhi"
+          - "Research: scalable optimization and network reduction methods for electric power networks"
+      - institution: Sharif University of Technology
+        area: Electrical Engineering, Power Systems
+        degree: M.Sc.
+        location: Tehran, Iran
+        start_date: 2017-09
+        end_date: 2020-01
+        highlights:
+          - "Thesis: Co-planning of Multiple Merchant Energy Storage Systems and Transmission Systems"
+          - "Advisor: Prof. Seyed Hamid Hosseini"
+      - institution: Imam Khomeini International University
+        area: Electrical Engineering, Power Systems
+        degree: B.Sc.
+        location: Qazvin, Iran
+        start_date: 2012-09
+        end_date: 2017-07
+        highlights:
+          - "Final project: Investigation of Wind Turbines Dynamic Behavior During a Fault, Using DIgSILENT"
+          - "Advisor: Dr. Navid Ghaffarzadeh"
+
+    Journal Papers:
+      - title: Optimal Kron-based Reduction of Networks (Opti-KRON) for Three-phase Distribution Feeders
+        authors:
+          - Omid Mokhtari
+          - Samuel Chevalier
+          - Mads R. Almassalkhi
+        journal: Electric Power Systems Research, vol. 263, 113615. Presented at PSCC 2026, Limassol, Cyprus
+        date: 2027
+        doi: 10.1016/j.epsr.2026.113615
+      - title: Structure-preserving Optimal Kron-based Reduction of Radial Distribution Networks
+        authors:
+          - Omid Mokhtari
+          - Samuel Chevalier
+          - Mads R. Almassalkhi
+        journal: IEEE Transactions on Power Systems (early access)
+        date: 2026
+        doi: 10.1109/TPWRS.2026.3726028
+
+    Preprints:
+      - title: Data-Driven Power Flow for Radial Distribution Networks with Sparse Real-Time Data
+        authors:
+          - Oleksii Molodchyk
+          - Omid Mokhtari
+          - Samuel Chevalier
+          - Mads R. Almassalkhi
+          - Timm Faulwasser
+        journal: arXiv preprint arXiv:2604.08403
+        date: 2026-04
+        url: https://arxiv.org/abs/2604.08403
+      - title: Enhancing Scalability of Optimal Kron-based Reduction of Networks (Opti-KRON) via Decomposition with Community Detection
+        authors:
+          - Omid Mokhtari
+          - Samuel Chevalier
+          - Mads R. Almassalkhi
+        journal: arXiv preprint arXiv:2407.02679
+        date: 2024-07
+        url: https://arxiv.org/abs/2407.02679
+
+    Presentations:
+      - name: Optimal Kron-based Reduction of Networks (Opti-KRON) for Three-phase Distribution Feeders
+        location: Limassol, Cyprus
+        date: 2026-06
+        summary: Power Systems Computation Conference (PSCC 2026)
+      - name: Structure-preserving Optimal Kron-based Reduction of Radial Distribution Networks
+        location: Boulder, CO
+        date: 2026-09
+        summary: PowerUp 2026 (poster)
+      - name: Optimal Kron-based Reduction of Networks (Opti-KRON) for Three-phase Distribution Feeders
+        location: Burlington, VT
+        date: 2026
+        summary: Student Research Conference, University of Vermont (poster)
+      - name: Network Reduction and Radialization
+        location: Burlington, VT
+        date: 2025
+        summary: Student Research Conference, University of Vermont (poster)
+      - name: Optimal Network Reduction
+        location: Seattle, WA
+        date: 2024-07
+        summary: IEEE Power & Energy Society General Meeting (poster)
+      - name: Community Detection Based Network Reduction
+        location: Burlington, VT
+        date: 2024
+        summary: Student Research Conference, University of Vermont (poster)
+
+    Research Experience:
+      - company: University of Vermont, Department of Electrical and Biomedical Engineering
+        position: Graduate Research Assistant
+        location: Burlington, VT, USA
+        start_date: 2023-08
+        end_date: present
+        highlights:
+          - "Developed Opti-KRON, an optimization-based network reduction method for radial and unbalanced three-phase distribution feeders;
+            removed over 94% of nodes on a 3,499-bus utility feeder with voltage error below 0.002 p.u."
+          - "Accelerated three-phase network reduction on GPUs (up to 15x faster than CPU) and scaled reduction to large transmission networks
+            through community-detection decomposition."
+          - "Co-developed a data-driven power flow and sensor placement method that estimates voltages with errors below 0.001 p.u. when only
+            about a quarter of locations have sensors."
+      - company: Sharif University of Technology
+        position: Research Assistant
+        location: Tehran, Iran
+        start_date: 2017-09
+        end_date: 2020-01
+        highlights:
+          - "Developed planning methods for co-planning merchant energy storage systems with transmission systems."
+
+    Professional Service:
+      - label: Reviewer
+        details: IEEE Transactions on Power Systems; Electric Power Systems Research; American Control Conference (ACC)
+
+    Technical Skills:
+      - label: Programming
+        details: Julia, Python, MATLAB, GAMS
+      - label: Software
+        details: DIgSILENT PowerFactory, LaTeX

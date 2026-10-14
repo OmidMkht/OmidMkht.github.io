@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Journal publications on power-system network reduction.
+description: Journal papers and preprints. The most up-to-date list is on my Google Scholar profile.
 nav: true
 nav_order: 2
 ---
