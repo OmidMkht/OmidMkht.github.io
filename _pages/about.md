@@ -53,7 +53,7 @@ I use optimal network reduction to place a limited budget of sensors in radial (
   </div>
 </div>
 <div class="caption">
-  Opti-KRON on a radial feeder. Left: animation of the full network, its optimal Kron-based reduction, and radialization of the reduced model. Right: the same three stages as layers.
+  Opti-KRON: full, reduced, and radialized network.
 </div>
 
 During my M.Sc. at Sharif University of Technology, I worked on the co-planning of merchant energy storage systems and transmission systems.
