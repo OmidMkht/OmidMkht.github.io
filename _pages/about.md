@@ -25,32 +25,30 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Electrical Engineering at the [University of Vermont](https://www.uvm.edu/cems/ebe), advised by Mads R. Almassalkhi and [Samuel Chevalier](https://samchevalier.github.io/).
+I am a Ph.D. student in Electrical Engineering at the [University of Vermont](https://www.uvm.edu/cems/ebe), advised by [Mads R. Almassalkhi](https://madsalma.github.io/) and [Samuel Chevalier](https://samchevalier.github.io/).
 I expect to complete my Ph.D. in Fall 2027 and am looking for postdoctoral positions.
 
-My research makes large power-grid models small enough to compute with, without losing the accuracy engineers need.
-Real distribution feeders can have thousands of nodes, which makes many optimization and control problems slow or impractical to solve.
-I develop optimization methods that shrink these network models while keeping a guaranteed bound on voltage error.
-For example, on real utility feeders with 3,499 to 8,381 nodes, my methods remove 80–94% of the nodes while keeping the voltage error below 0.3% of nominal voltage.
-
-[Email](mailto:omid.mokhtari@uvm.edu) · [CV]({{ '/cv/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=Y0yF4dMAAAAJ) · [GitHub](https://github.com/OmidMkht) · [LinkedIn](https://www.linkedin.com/in/omidmokhtari)
+[Email](mailto:omid.mokhtari@uvm.edu) · [CV]({{ '/cv/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=Y0yF4dMAAAAJ) · [ORCID](https://orcid.org/0009-0001-6204-1612) · [GitHub](https://github.com/OmidMkht) · [LinkedIn](https://www.linkedin.com/in/omidmokhtari)
 
 ## Research
 
-**Optimal network reduction.**
-[Opti-KRON]({{ '/projects/opti-kron/' | relative_url }}) uses optimization to decide which nodes of a power network to merge, so the smaller model still reproduces the original voltages.
-I have developed versions for radial distribution networks and for unbalanced three-phase feeders.
+My Ph.D. research focuses on optimal network reduction for power systems, in three parts.
 
-**Scalable computation.**
-To handle networks with thousands of nodes, I split them into communities that are reduced in parallel, and I run the reduction on GPUs (up to 15× faster than on CPUs in our tests).
+**Network reduction for distribution systems.**
+I develop [Opti-KRON](https://github.com/OmidMkht/Opti-KRON), an optimization-based Kron reduction framework for distribution feeders.
+It produces structure-preserving (radial) reduced models of radial networks, extends to unbalanced three-phase feeders, and runs on GPUs for large systems.
 
-**Estimation with few sensors.**
-With collaborators, I study data-driven power flow and sensor placement, which estimate grid voltages with errors below 0.1% when only about a quarter of locations have sensors.
+**Network reduction for transmission systems.**
+For large meshed transmission networks, I decompose the network into communities with community detection and reduce each community in parallel.
+
+**Sensor placement.**
+I use optimal network reduction to place a limited budget of sensors in radial distribution networks, supporting data-driven power flow and voltage estimation with sparse real-time measurements.
+
+During my M.Sc. at Sharif University of Technology, I worked on the co-planning of merchant energy storage systems and transmission systems.
 
 ## A little more about me
 
-Before coming to Vermont, I earned an M.Sc. in Electrical Engineering (power systems) at Sharif University of Technology, where I worked on co-planning merchant energy storage with transmission systems.
-I received my B.Sc. in Electrical Engineering from Imam Khomeini International University in Qazvin, Iran.
+I received my B.Sc. in Electrical Engineering (power systems) from Imam Khomeini International University in Qazvin, Iran.
 
 I serve as a reviewer for _IEEE Transactions on Power Systems_, _Electric Power Systems Research_, and the American Control Conference (ACC).
 

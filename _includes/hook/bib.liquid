@@ -1,0 +1,7 @@
+{%- comment -%}
+  Runs for every publication entry. If the entry has a `url` field, the venue name
+  (journal, or "arXiv preprint") becomes a link to the paper itself.
+{%- endcomment -%}
+{%- if entry.url -%}
+  {%- capture entrytype -%}<a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entrytype }}</a>{%- endcapture -%}
+{%- endif -%}

@@ -1,11 +1,10 @@
 # Co-author names in the publication list become links to these pages.
 # Keys are last names in lower case, without accents.
 
+"almassalkhi":
+  - firstname: ["Mads", "M.", "Mads R.", "M. R."]
+    url: https://madsalma.github.io/
+
 "chevalier":
   - firstname: ["Samuel", "S.", "Sam"]
     url: https://samchevalier.github.io/
-
-# Add Mads's page by removing the "#" signs and pasting his preferred URL:
-# "almassalkhi":
-#   - firstname: ["Mads", "M.", "Mads R."]
-#     url: https://...

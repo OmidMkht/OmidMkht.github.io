@@ -4,7 +4,7 @@ title: cv
 permalink: /cv/
 description: Curriculum vitae of Omid Mokhtari.
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 <p>

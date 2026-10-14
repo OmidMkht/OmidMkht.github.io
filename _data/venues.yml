@@ -1,11 +1,3 @@
-"TPWRS":
-  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=59
-
-"EPSR":
-  url: https://www.sciencedirect.com/journal/electric-power-systems-research
-
-"EPSR (PSCC)":
-  url: https://www.sciencedirect.com/journal/electric-power-systems-research
-
-"arXiv":
-  url: https://arxiv.org/
+# Venue badges (TPWRS, EPSR (PSCC), arXiv) are shown as plain labels.
+# Each paper's journal name links to the paper itself; see _includes/hook/bib.liquid.
+{}
