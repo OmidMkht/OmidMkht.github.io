@@ -58,12 +58,10 @@ I use optimal network reduction to place a limited budget of sensors in radial (
   Opti-KRON: full, reduced, and radialized network.
 </div>
 
-During my M.Sc. at Sharif University of Technology, I worked on the co-planning of merchant energy storage systems and transmission systems.
+## Education
 
-## A little more about me
-
-I received my B.Sc. in Electrical Engineering (power systems) from Imam Khomeini International University in Qazvin, Iran.
-
-I serve as a reviewer for _IEEE Transactions on Power Systems_, _Electric Power Systems Research_, and the American Control Conference (ACC).
+- **Ph.D.** in Electrical Engineering, University of Vermont (expected Fall 2027)
+- **M.Sc.** in Electrical Engineering (Power Systems), Sharif University of Technology, Tehran, Iran
+- **B.Sc.** in Electrical Engineering (Power Systems), Imam Khomeini International University, Qazvin, Iran
 
 <!-- Add later when ready: teaching or TA experience, awards and fellowships, and one line on hobbies. -->
