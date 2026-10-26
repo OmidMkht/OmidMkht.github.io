@@ -32,14 +32,16 @@ I expect to complete my Ph.D. in Fall 2027 and am looking for postdoctoral posit
 
 ## Research
 
-My Ph.D. research focuses on optimal network reduction for power systems, building on **mathematical optimization** and **graph theory**. It has three parts.
+My research lies at the intersection of **power system operation and planning**, **mathematical optimization**, and **graph theory**.
+My Ph.D. work focuses on optimal network reduction for power systems, in three parts.
 
 **Network reduction for distribution systems.**
-I develop [Opti-KRON](https://github.com/OmidMkht/Opti-KRON), which formulates Kron-based reduction of distribution feeders as a mixed-integer optimization problem.
-It produces structure-preserving (radial) reduced models of radial networks, extends to unbalanced three-phase feeders, and runs on GPUs for large systems.
+I develop [Opti-KRON](https://github.com/OmidMkht/Opti-KRON), which formulates Kron-based reduction of distribution feeders as a mixed-integer optimization problem and produces structure-preserving (radial) reduced models of radial networks.
+I extended Opti-KRON to unbalanced three-phase distribution networks and developed a GPU-based search algorithm to improve scalability.
 
 **Network reduction for transmission systems.**
-For large meshed transmission networks, I partition the network graph into communities with community detection and reduce each community in parallel.
+I am currently working on transmission network reduction to accelerate DC optimal power flow and capacity expansion problems.
+The main challenge is to aggregate buses and lines while accounting for transmission constraints, particularly line-flow limits, so that the reduced model does not allow infeasible operating points.
 
 **Sensor placement.**
 I use optimal network reduction to place a limited budget of sensors in radial (tree-structured) distribution networks, supporting data-driven power flow and voltage estimation with sparse real-time measurements.
