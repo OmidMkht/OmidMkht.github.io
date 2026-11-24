@@ -64,8 +64,4 @@ I use optimal network reduction to place a limited budget of sensors in radial (
 - **M.Sc.** in Electrical Engineering (Power Systems), Sharif University of Technology, Tehran, Iran
 - **B.Sc.** in Electrical Engineering (Power Systems), Imam Khomeini International University, Qazvin, Iran
 
-## Honors and Awards
-
-- **IEEE PES Young Outstanding Engineer Award**, Green Mountain Chapter, November 2026
-
 <!-- Add later when ready: teaching or TA experience, awards and fellowships, and one line on hobbies. -->
